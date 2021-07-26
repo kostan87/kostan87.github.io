@@ -1,0 +1,52 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html {
+  font-family: sans-serif;
+}
+body {
+  margin: 0;
+  font-size: 3vh;
+  color: #212529;
+  text-align: center;
+  background-color: #9FF;
+}
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header {
+  background-color: #069;
+  padding: 2%;
+  margin: 0;
+  height: 20vh;
+}
+.main {
+  background-color: #099;
+  padding: 10px;
+  margin: 0;
+  min-height: 80vh;
+}
+.main h1 {
+  font-size: 1.4em;
+}
+
+A:link {
+  color: #036;
+}
+A:visited {
+  color: #036;
+}
+A:hover {
+  color: #F00;
+}
