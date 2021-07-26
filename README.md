@@ -1,2 +1,2 @@
 # Portfolio
-My portfolio
+I'm a Junior web developer. This is my portfolio.
