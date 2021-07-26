@@ -5,31 +5,36 @@
 		<link rel="stylesheet" href="style.css">
 		<title>Портфолио</title>
 	</head>
-	<body>
+	<body id="top">
+		<header>
+			<form name="headerPosition" id="headerPosition">
+			<span class="tooltip" data-tooltip="Junior Веб-разработчик"><h1>Климентьев Константин</h1></span>
+	  	</header>
 		<div class="container">
-			<div class="header">
-				<h1>Портфолио</h1>
-			</div>
-		</div>
-		<div class="container">
-			<div class="main">
-				<div>
-					<h1>Климентьев Константин<br>веб-разработчик</h1>
-				</div>
+			<main>
 				<div>
 					<h2>Навыки:</h2>
-					<p>HTML5 CSS3 JavaScript</p>
+					<p style="padding-bottom: 5vh"><span class="tooltip" data-tooltip="HTML5" style="color: orange;">HTML</span> |
+						<span class="tooltip" data-tooltip="CSS3" style="color: aqua;">CSS</span> |
+						<span class="tooltip" data-tooltip="JS" style="color: yellow;">JavaScript</span></p>
 				</div>
 				<div>
 					<h2>Мои работы:</h2>
-					<a href="index.html">Портфолио</a>
+					<div class="projects">
+					  <p><a href="index.html">Портфолио</a></p>
+					  <p><a href="Projects/MFS/pages/GP.html">Первый сайт</a></p>
+					</div>
 				</div>
-			</div>
+			</main>
 		</div>
 		<div class="container">
-			<div class="footer">
-				
-			</div>
+			<footer>
+				<span>
+					<a href="tel:+79518108217">+7 (951) 810-82-17</a> |
+					<a href="mailto:k.kostya25@mail.ru">k.kostya25@mail.ru</a>
+				</span>
+				<a href="#top" id="totop">^</a>
+			</footer>
 		</div>
 		<script src="script.js"></script>
 	</body>
