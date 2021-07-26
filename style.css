@@ -5,7 +5,7 @@ html, body {
   color: black;
   display: inline-flex;
   flex-flow: column;
-  font-family: "Impact", fantasy;
+  font-family: "Impact", sans-serif;
   font-size: 48px;
   margin: 0px;
   padding: 0px;
@@ -62,22 +62,21 @@ footer {
 	cursor: help;
 }
 .tooltip::after {
-	background: rgba(0, 0, 0, 0.8);
-	border-radius: 8px 8px 8px 0px;
-	box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
-	color: #FFF;
-	content: attr(data-tooltip);
-	margin-top: -24px;
-	opacity: 0;
-	padding: 3px 7px;
-	position: absolute;
-	visibility: hidden;
-
-	transition: all 0.4s ease-in-out;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 8px 8px 8px 0px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+  color: #FFF;
+  content: attr(data-tooltip);
+  margin-top: -24px;
+  opacity: 0;
+  padding: 3px 7px;
+  position: absolute;
+  visibility: hidden;
+  transition: all 0.4s ease-in-out;
 }
 .tooltip:hover::after {
-	opacity: 1;
-	visibility: visible;
+  opacity: 1;
+  visibility: visible;
 }
 
 #totop {
