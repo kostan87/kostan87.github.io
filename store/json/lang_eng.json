@@ -1,0 +1,9 @@
+{
+    "title": "Online Store",
+    "lang": "EN",
+    "change_lang": "http://store?lang=RU",
+    "links1": "Home",
+    "links2": "Store",
+    "links3":"Log in",
+    "footer":"©2021 Online Store"
+}

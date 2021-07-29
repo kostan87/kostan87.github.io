@@ -1,0 +1,133 @@
+html, body {
+    background-color: rgba(240, 240, 240);
+    box-sizing: border-box;
+    color: black;
+    display: inline-flex;
+    flex-flow: column;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    user-select: none;
+}
+/* Desktop */
+@media screen and (min-width:801px) {
+    header {
+        display: inline-flex;
+        flex-flow: row;
+        text-align: right;
+    }
+    .title {
+        font-size: 3em;
+        width: 30%;
+    }
+    .links {
+        display: inline-flex;
+        justify-content: flex-end;
+        padding-top: 1vh;
+        padding-right: 5vh;
+        text-align: right;
+        width: 70%;
+    }
+    .links div {
+        margin-left: 1vh;
+        margin-top: 1vh;
+    }
+    .links img {
+        height: 2vh;
+        width: 2vh;
+    }
+    .feed {
+        display: inline-flex;
+        margin-top: 15vh;
+    }
+}
+/* Mobile */
+@media screen and (max-width:800px) {
+    .title {
+        font-size: 2em;
+        height: 50%;
+    }
+    .links {
+        display: inline-flex;
+        height: 50%;
+        width: 100%;
+    }
+    .links div {
+        margin: 0;
+        padding: 0;
+        width: 20%;
+    }
+    .links span {
+        display: inline-block;
+        height: calc(100% - 2vh);
+        padding-top: 2vh;
+        width: 100%;
+    }
+    .links img {
+        height: 2vh;
+        width: 2vh;
+    }
+    .place {
+        margin: 2vh;
+        width: 90%;
+    }
+    .feed {
+        margin-top: 5vh;
+        overflow: auto;
+    }
+}
+A {
+    text-decoration: none;
+}
+A:link {
+    color: rgb(255, 255, 255);
+}
+A:visited {
+    color: rgb(255, 255, 255);
+}
+A:hover {
+    color: rgb(255, 255, 255);
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+header {
+    background-color: rgb(80, 80, 255);
+    height: 14vh;
+    margin: 0;
+    padding-top: 6vh;
+}
+main {
+    margin: 0;
+    min-height: 60%;
+}
+footer {
+    height: 10vh;
+    margin: 0;
+    margin-top: 10vh;
+}
+  
+.title {
+    color: white;
+    text-align: center;
+}
+.feed {
+    max-width: 100%;
+}
+.place {
+    height: 40vh;
+    margin-left: 3vh;
+}
+.place img {
+    height: 30vh;
+    width: 30vh;
+}
+.place A {
+    color: black;
+}
+.place p {
+    border-bottom: 1px solid black;
+    padding-bottom: 1vh;
+}  

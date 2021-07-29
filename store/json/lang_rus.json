@@ -1,0 +1,9 @@
+{
+    "title": "Интернет-магазин",
+    "lang": "RU",
+    "change_lang": "http://store?lang=EN",
+    "links1": "Главная",
+    "links2": "Магазин",
+    "links3":"Вход",
+    "footer":"©2021 Интернет-магазин"
+}
